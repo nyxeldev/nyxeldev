@@ -1,9 +1,5 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                         HEADER                                  -->
-<!-- ═══════════════════════════════════════════════════════════════ -->
-
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,40:302b63,100:24243e&height=220&section=header&text=Jahongir%20Hamidov&fontSize=56&fontColor=ffffff&fontAlignY=40&fontAlign=50&desc=Frontend%20Developer%20%E2%80%94%20UI%20Architect%20%E2%80%94%20Creative%20Builder&descAlignY=62&descSize=17&descAlign=50&animation=fadeIn" />
 
 <br/>
@@ -14,7 +10,6 @@
 
 <br/><br/>
 
-<!-- BADGES ROW -->
 <img src="https://komarev.com/ghpvc/?username=nyxeldev&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" />
 &nbsp;
 <img src="https://img.shields.io/badge/Experience-1.5%20Years-a78bfa?style=for-the-badge&logo=aboutdotme&logoColor=white" />
@@ -24,8 +19,6 @@
 <img src="https://img.shields.io/badge/Based%20In-Uzbekistan%20🇺🇿-f97316?style=for-the-badge" />
 
 </div>
-
-<br/>
 
 ---
 
@@ -128,16 +121,12 @@
 ---
 
 ## 💡 Soft Skills Matrix
-
-<div align="center">
 Problem Solving    ████████████████████  Expert
 Fast Learning      ███████████████████░  Advanced
 Adaptability       ██████████████████░░  Advanced
 Communication      ████████████████░░░░  Proficient
 AI-Assisted Dev    ████████████████████  Expert
 Team Collaboration ███████████████░░░░░  Growing
-
-</div>
 
 ---
 
@@ -223,31 +212,3 @@ Team Collaboration ███████████████░░░░░ 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,40:302b63,100:0f0c29&height=130&section=footer&text=Open%20to%20work%20%26%20collaboration&fontSize=18&fontColor=a78bfa&fontAlignY=65&animation=fadeIn" />
 
 </div>
-
-⚠️ Muhim: Snake animatsiyasi uchun 1 marta sozlash
-nyxeldev repositoriyangizdagi .github/workflows/snake.yml fayliga qo'shing:
-yamlname: Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0,12 * * *"
-  workflow_dispatch:
-  push:
-    branches: [main]
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: nyxeldev
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
