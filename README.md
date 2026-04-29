@@ -1,141 +1,187 @@
 <div align="center">
-markdown<!-- HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Jahongir%20Hamidov&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Front-End%20Developer%20%7C%20UI%20Architect%20%7C%20Creative%20Builder&descAlignY=60&descSize=18&animation=fadeIn" />
+
+<!-- ═══════════════════════════════════════════════════════════════ -->
+<!--                         HEADER                                  -->
+<!-- ═══════════════════════════════════════════════════════════════ -->
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,40:302b63,100:24243e&height=220&section=header&text=Jahongir%20Hamidov&fontSize=56&fontColor=ffffff&fontAlignY=40&fontAlign=50&desc=Frontend%20Developer%20%E2%80%94%20UI%20Architect%20%E2%80%94%20Creative%20Builder&descAlignY=62&descSize=17&descAlign=50&animation=fadeIn" />
 
 <br/>
 
-<!-- TYPING ANIMATION -->
 <a href="https://github.com/nyxeldev">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&multiline=false&repeat=true&width=600&lines=⚡+Building+sleek+UIs+with+React+%26+Next.js;🎨+Turning+ideas+into+pixel-perfect+products;🚀+Always+shipping%2C+always+learning;🛡️+Diving+deep+into+Cyber+Security;🤖+AI-enhanced+developer+workflow" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=650&lines=⚡+1.5+years+of+building+sleek+web+interfaces;🧩+React.js+%26+Next.js+Specialist;🎨+Pixel-perfect+UI+%7C+Performance+first;🛡️+Exploring+Cyber+Security+%26+Ethical+Hacking;🤖+AI-enhanced+developer+workflow;🚀+On+the+road+to+Full-Stack+%26+System-level+Dev" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<!-- PROFILE VIEWS + SOCIAL BADGES -->
-<p>
-  <img src="https://komarev.com/ghpvc/?username=nyxeldev&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" />
-  &nbsp;
-  <a href="https://t.me/alan_mid"><img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-  &nbsp;
-  <a href="mailto:imhamidovic@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  &nbsp;
-  <a href="https://www.youtube.com/@frontend_with_hamidov"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
-</p>
+<!-- BADGES ROW -->
+<img src="https://komarev.com/ghpvc/?username=nyxeldev&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" />
+&nbsp;
+<img src="https://img.shields.io/badge/Experience-1.5%20Years-a78bfa?style=for-the-badge&logo=aboutdotme&logoColor=white" />
+&nbsp;
+<img src="https://img.shields.io/badge/Open%20To-Work%20%26%20Collab-22c55e?style=for-the-badge&logo=checkmarx&logoColor=white" />
+&nbsp;
+<img src="https://img.shields.io/badge/Based%20In-Uzbekistan%20🇺🇿-f97316?style=for-the-badge" />
 
 </div>
 
+<br/>
+
 ---
 
-## 🧬 Who Am I?
+## 🧬 Developer Identity
 
 ```yaml
-name       : Jahongir Hamidov
-alias      : nyxeldev
-age        : 21
-location   : Uzbekistan 🇺🇿
-timezone   : UTC+5 | Active: 14:00 → 07:00
-role       : Front-End Developer
-focus      : React.js · Next.js · TypeScript · UI/UX
-learning   : Angular · Node.js · Python · Cyber Security
-superpower : Advanced AI user + Problem Solver
-goal       : Join a strong team, grow fast, ship great products
+───────────────────────────────────────────────────────────
+  profile:
+    name       : "Jahongir Hamidov"
+    alias      : "nyxeldev"
+    age        : 21
+    location   : "Uzbekistan 🇺🇿"
+    timezone   : "UTC+5  |  Active: 14:00 → 07:00"
+
+  experience:
+    total      : "1.5 years (practical)"
+    domain     : "Frontend Web Development"
+    type       : "Scalable UI · Component-Driven · Performance-First"
+
+  stack_core:
+    languages  : ["JavaScript ES6+", "TypeScript", "Python", "C++"]
+    frameworks : ["React.js", "Next.js"]
+    styling    : ["Tailwind CSS", "SASS", "Bootstrap"]
+    ui_libs    : ["Material UI", "Ant Design", "ShadCN UI"]
+    state      : ["Redux"]
+    tools      : ["Git", "GitHub"]
+    extras     : ["Telegram Bot API", "pandas", "numpy", "faker"]
+
+  currently_learning:
+    - "Node.js  →  Backend & REST APIs"
+    - "Angular 17+  →  Enterprise-grade SPA"
+    - "Cyber Security  →  Ethical Hacking, Linux, SQLi"
+    - "Python Advanced  →  Automation & Data"
+
+  goal       : "Full-Stack · System-Level · Production-Ready Engineer"
+  superpower : "AI-assisted development + lightning-fast learning"
+───────────────────────────────────────────────────────────
 ```
 
 ---
 
-## 🚀 Tech Stack
+## ⚙️ Full Tech Arsenal
 
-### ⚡ Core Languages
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-</p>
+<div align="center">
+
+### 🧠 Languages
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 
 ### ⚛️ Frameworks & Libraries
-<p>
-  <img src="https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Framer_Motion-EF3AAB?style=for-the-badge&logo=framer&logoColor=white" />
-  <img src="https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
-</p>
 
-### 🎨 Styling
-<p>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-  <img src="https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
-  <img src="https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white" />
-</p>
+![React](https://img.shields.io/badge/React.js-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Redux](https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-EF3AAB?style=for-the-badge&logo=framer&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular_(learning)-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js_(learning)-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
----
+### 🎨 UI & Styling
 
-## 🔭 Currently Exploring
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![ShadCN UI](https://img.shields.io/badge/ShadCN_UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
+![Material UI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+![Ant Design](https://img.shields.io/badge/Ant_Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-<table>
-  <tr>
-    <td>🔺</td>
-    <td><b>Angular 17+</b></td>
-    <td>Component architecture & signals</td>
-  </tr>
-  <tr>
-    <td>🌐</td>
-    <td><b>Node.js</b></td>
-    <td>REST APIs & server-side logic</td>
-  </tr>
-  <tr>
-    <td>🐍</td>
-    <td><b>Python Advanced</b></td>
-    <td>Automation, scripting & AI tooling</td>
-  </tr>
-  <tr>
-    <td>🛡️</td>
-    <td><b>Cyber Security</b></td>
-    <td>Ethical hacking, Linux, SQLi & pentesting</td>
-  </tr>
-</table>
+### 🛠️ Tools & Data
 
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=nyxeldev&show_icons=true&theme=tokyonight&border_radius=12&hide_border=false&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9" width="48%" />
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nyxeldev&theme=tokyonight&border_radius=12&hide_border=false&background=0d1117&ring=a78bfa&fire=f97316&currStreakLabel=a78bfa" width="48%" />
-
-  <br/><br/>
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nyxeldev&layout=compact&theme=tokyonight&border_radius=12&hide_border=false&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8" width="48%" />
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Telegram Bot](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🔭 Growth Roadmap
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nyxeldev&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
+
+| Status | Domain | Focus Area |
+|:------:|--------|------------|
+| 🟢 Active | **Frontend** | React.js · Next.js · TypeScript · ShadCN |
+| 🟡 Learning | **Backend** | Node.js · REST APIs · Express |
+| 🟡 Learning | **Framework** | Angular 17+ · Signals · Component Architecture |
+| 🟡 Learning | **Security** | Ethical Hacking · Linux · SQLi · Pentesting |
+| 🔵 Expanding | **Python** | Automation · Data Tools · Advanced Scripting |
+| 🎯 Goal | **Full-Stack** | Production-ready · System-level · Team-ready |
+
 </div>
 
 ---
 
-## 🐍 Contribution Snake
+## 💡 Soft Skills Matrix
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nyxeldev/nyxeldev/output/github-contribution-grid-snake-dark.svg" />
-</div>
+Problem Solving    ████████████████████  Expert
+Fast Learning      ███████████████████░  Advanced
+Adaptability       ██████████████████░░  Advanced
+Communication      ████████████████░░░░  Proficient
+AI-Assisted Dev    ████████████████████  Expert
+Team Collaboration ███████████████░░░░░  Growing
 
-> ⚠️ *Snake animatsiyasi ishlashi uchun GitHub Actions sozlash kerak — pastdagi bosqichlarga qarang.*
+</div>
 
 ---
 
-## 💬 Dev Philosophy
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=nyxeldev&show_icons=true&theme=tokyonight&border_radius=14&hide_border=false&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&include_all_commits=true&count_private=true" width="49%" />
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=nyxeldev&theme=tokyonight&border_radius=14&hide_border=false&background=0d1117&ring=a78bfa&fire=f97316&currStreakLabel=a78bfa&sideLabels=a78bfa&dates=8b949e" width="49%" />
+
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nyxeldev&layout=donut&theme=tokyonight&border_radius=14&hide_border=false&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8" width="40%" />
+
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=nyxeldev&theme=tokyo-night&bg_color=0d1117&color=a78bfa&line=7c3aed&point=f97316&area=true&hide_border=false&radius=12" width="98%" />
+
+</div>
+
+---
+
+## 🏆 Achievements
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nyxeldev&theme=tokyonight&no-frame=false&no-bg=false&column=7&margin-w=6&margin-h=6" width="100%" />
+</div>
+
+---
+
+## 🐍 Contribution Activity
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nyxeldev/nyxeldev/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nyxeldev/nyxeldev/output/github-contribution-grid-snake.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/nyxeldev/nyxeldev/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</div>
+
+---
+
+## 💬 Philosophy
 
 <div align="center">
 
@@ -146,35 +192,48 @@ goal       : Join a strong team, grow fast, ship great products
 
 <br/>
 
-> *"The best interface is no interface. The second best is one the user never has to think about."*
+> *"The goal is not just to write code — it's to solve real problems, elegantly."*
 
 </div>
 
 ---
 
-## 🤝 Let's Connect & Build
+## 🤝 Let's Connect
 
 <div align="center">
 
-  [![Telegram](https://img.shields.io/badge/@alan__mid-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/alan_mid)
-  [![YouTube](https://img.shields.io/badge/frontend__with__hamidov-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@frontend_with_hamidov)
-  [![Gmail](https://img.shields.io/badge/imhamidovic@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:imhamidovic@gmail.com)
-  [![GitHub](https://img.shields.io/badge/nyxeldev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nyxeldev)
+<a href="https://t.me/alan_mid">
+  <img src="https://img.shields.io/badge/Telegram-%40alan__mid-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://www.youtube.com/@frontend_with_hamidov">
+  <img src="https://img.shields.io/badge/YouTube-frontend__with__hamidov-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+</a>
+&nbsp;
+<a href="mailto:imhamidovic@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-imhamidovic@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+&nbsp;
+<a href="https://github.com/nyxeldev">
+  <img src="https://img.shields.io/badge/GitHub-nyxeldev-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
-  <br/><br/>
+<br/><br/>
 
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&text=Open+to+work+%26+collaboration&fontSize=18&fontColor=a78bfa&fontAlignY=65&animation=fadeIn" width="100%" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,40:302b63,100:0f0c29&height=130&section=footer&text=Open%20to%20work%20%26%20collaboration&fontSize=18&fontColor=a78bfa&fontAlignY=65&animation=fadeIn" />
 
 </div>
 
-🐍 Snake animatsiyasi uchun qo'shimcha qadam
-Snake ishlashi uchun nyxeldev repositoriyangizda GitHub Actions workflow yaratishingiz kerak. .github/workflows/snake.yml faylini qo'shing:
-yamlname: Generate Snake
+⚠️ Muhim: Snake animatsiyasi uchun 1 marta sozlash
+nyxeldev repositoriyangizdagi .github/workflows/snake.yml fayliga qo'shing:
+yamlname: Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 0,12 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
   generate:
