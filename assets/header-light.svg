@@ -1,53 +1,67 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="940" height="172" viewBox="0 0 940 172" role="img" aria-label="Jahongir Hamidov - full-stack engineer, Tashkent, Uzbekistan">
+  <style>
+    .ch   { animation: rise .5s cubic-bezier(.2,.7,.3,1) backwards; }
+    .sub  { animation: rise .7s ease .62s backwards; }
+    .rule { stroke-dasharray: 884; animation: draw 1.4s cubic-bezier(.33,0,.2,1) .18s backwards; }
+    .d    { animation: wave 9s ease-in-out infinite; }
+    .lit  { animation: pulse 3.6s ease-in-out infinite; }
+    @keyframes rise  { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes draw  { from { stroke-dashoffset: 884 } to { stroke-dashoffset: 0 } }
+    @keyframes wave  { 0%, 100% { opacity: .7 } 45% { opacity: 1 } }
+    @keyframes pulse { 0%, 100% { opacity: 1 } 50% { opacity: .42 } }
+    @media (prefers-reduced-motion: reduce) {
+      .ch, .sub, .rule, .d, .lit { animation: none; stroke-dashoffset: 0 }
+    }
+  </style>
   <g font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace">
-    <text x="28" y="82" font-size="30" font-weight="500" letter-spacing="6" fill="#1f2328">JAHONGIR HAMIDOV</text>
-    <text x="30" y="112" font-size="11.5" letter-spacing="3" fill="#59636e">FULL-STACK ENGINEER &#183; TASHKENT, UZBEKISTAN</text>
+    <text y="82" font-size="30" font-weight="500" fill="#1f2328"><tspan class="ch" x="28.0" style="animation-delay:0.16s">J</tspan><tspan class="ch" x="48.0" style="animation-delay:0.20s">A</tspan><tspan class="ch" x="68.0" style="animation-delay:0.23s">H</tspan><tspan class="ch" x="88.0" style="animation-delay:0.27s">O</tspan><tspan class="ch" x="108.0" style="animation-delay:0.30s">N</tspan><tspan class="ch" x="128.0" style="animation-delay:0.34s">G</tspan><tspan class="ch" x="148.0" style="animation-delay:0.37s">I</tspan><tspan class="ch" x="168.0" style="animation-delay:0.41s">R</tspan><tspan class="ch" x="208.0" style="animation-delay:0.48s">H</tspan><tspan class="ch" x="228.0" style="animation-delay:0.51s">A</tspan><tspan class="ch" x="248.0" style="animation-delay:0.55s">M</tspan><tspan class="ch" x="268.0" style="animation-delay:0.58s">I</tspan><tspan class="ch" x="288.0" style="animation-delay:0.62s">D</tspan><tspan class="ch" x="308.0" style="animation-delay:0.65s">O</tspan><tspan class="ch" x="328.0" style="animation-delay:0.69s">V</tspan></text>
+    <text class="sub" x="30" y="112" font-size="11.5" letter-spacing="3" fill="#59636e">FULL-STACK ENGINEER · TASHKENT, UZBEKISTAN</text>
   </g>
   <g>
-    <circle cx="692" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.42"/>
-    <circle cx="714" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.478"/>
-    <circle cx="736" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.536"/>
-    <circle cx="758" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.594"/>
-    <circle cx="780" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.652"/>
-    <circle cx="802" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.71"/>
-    <circle cx="824" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.768"/>
-    <circle cx="846" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.826"/>
-    <circle cx="868" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.884"/>
-    <circle cx="890" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.942"/>
-    <circle cx="912" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="1.0"/>
-    <circle cx="692" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.42"/>
-    <circle cx="714" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.478"/>
-    <circle cx="736" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.536"/>
-    <circle cx="758" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.594"/>
-    <circle cx="780" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.652"/>
-    <circle cx="802" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.71"/>
-    <circle cx="824" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.768"/>
-    <circle cx="846" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.826"/>
-    <circle cx="868" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.884"/>
-    <circle cx="890" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.942"/>
-    <circle cx="912" cy="74" r="2.6" fill="#7c3aed" fill-opacity="1.0"/>
-    <circle cx="692" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.42"/>
-    <circle cx="714" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.478"/>
-    <circle cx="736" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.536"/>
-    <circle cx="758" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.594"/>
-    <circle cx="780" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.652"/>
-    <circle cx="802" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.71"/>
-    <circle cx="824" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.768"/>
-    <circle cx="846" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.826"/>
-    <circle cx="868" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.884"/>
-    <circle cx="890" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.942"/>
-    <circle cx="912" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="1.0"/>
-    <circle cx="692" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.42"/>
-    <circle cx="714" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.478"/>
-    <circle cx="736" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.536"/>
-    <circle cx="758" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.594"/>
-    <circle cx="780" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.652"/>
-    <circle cx="802" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.71"/>
-    <circle cx="824" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.768"/>
-    <circle cx="846" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.826"/>
-    <circle cx="868" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.884"/>
-    <circle cx="890" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.942"/>
-    <circle cx="912" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="1.0"/>
+    <circle class="d" cx="692" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.42" style="animation-delay:-0.00s"/>
+    <circle class="d" cx="714" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.478" style="animation-delay:-0.42s"/>
+    <circle class="d" cx="736" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.536" style="animation-delay:-0.84s"/>
+    <circle class="d" cx="758" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.594" style="animation-delay:-1.26s"/>
+    <circle class="d" cx="780" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.652" style="animation-delay:-1.68s"/>
+    <circle class="d" cx="802" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.71" style="animation-delay:-2.10s"/>
+    <circle class="d" cx="824" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.768" style="animation-delay:-2.52s"/>
+    <circle class="d" cx="846" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.826" style="animation-delay:-2.94s"/>
+    <circle class="d" cx="868" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.884" style="animation-delay:-3.36s"/>
+    <circle class="d" cx="890" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="0.942" style="animation-delay:-3.78s"/>
+    <circle class="d" cx="912" cy="52" r="2.2" fill="#c4ccd6" fill-opacity="1.0" style="animation-delay:-4.20s"/>
+    <circle class="d" cx="692" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.42" style="animation-delay:-0.20s"/>
+    <circle class="d" cx="714" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.478" style="animation-delay:-0.62s"/>
+    <circle class="d" cx="736" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.536" style="animation-delay:-1.04s"/>
+    <circle class="d" cx="758" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.594" style="animation-delay:-1.46s"/>
+    <circle class="d" cx="780" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.652" style="animation-delay:-1.88s"/>
+    <circle class="d" cx="802" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.71" style="animation-delay:-2.30s"/>
+    <circle class="d" cx="824" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.768" style="animation-delay:-2.72s"/>
+    <circle class="d" cx="846" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.826" style="animation-delay:-3.14s"/>
+    <circle class="d" cx="868" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.884" style="animation-delay:-3.56s"/>
+    <circle class="d" cx="890" cy="74" r="2.2" fill="#c4ccd6" fill-opacity="0.942" style="animation-delay:-3.98s"/>
+    <circle class="lit" cx="912" cy="74" r="2.6" fill="#7c3aed" fill-opacity="1.0" style="animation-delay:-4.40s"/>
+    <circle class="d" cx="692" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.42" style="animation-delay:-0.40s"/>
+    <circle class="d" cx="714" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.478" style="animation-delay:-0.82s"/>
+    <circle class="d" cx="736" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.536" style="animation-delay:-1.24s"/>
+    <circle class="d" cx="758" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.594" style="animation-delay:-1.66s"/>
+    <circle class="d" cx="780" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.652" style="animation-delay:-2.08s"/>
+    <circle class="d" cx="802" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.71" style="animation-delay:-2.50s"/>
+    <circle class="d" cx="824" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.768" style="animation-delay:-2.92s"/>
+    <circle class="d" cx="846" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.826" style="animation-delay:-3.34s"/>
+    <circle class="d" cx="868" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.884" style="animation-delay:-3.76s"/>
+    <circle class="d" cx="890" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="0.942" style="animation-delay:-4.18s"/>
+    <circle class="d" cx="912" cy="96" r="2.2" fill="#c4ccd6" fill-opacity="1.0" style="animation-delay:-4.60s"/>
+    <circle class="d" cx="692" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.42" style="animation-delay:-0.60s"/>
+    <circle class="d" cx="714" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.478" style="animation-delay:-1.02s"/>
+    <circle class="d" cx="736" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.536" style="animation-delay:-1.44s"/>
+    <circle class="d" cx="758" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.594" style="animation-delay:-1.86s"/>
+    <circle class="d" cx="780" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.652" style="animation-delay:-2.28s"/>
+    <circle class="d" cx="802" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.71" style="animation-delay:-2.70s"/>
+    <circle class="d" cx="824" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.768" style="animation-delay:-3.12s"/>
+    <circle class="d" cx="846" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.826" style="animation-delay:-3.54s"/>
+    <circle class="d" cx="868" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.884" style="animation-delay:-3.96s"/>
+    <circle class="d" cx="890" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="0.942" style="animation-delay:-4.38s"/>
+    <circle class="d" cx="912" cy="118" r="2.2" fill="#c4ccd6" fill-opacity="1.0" style="animation-delay:-4.80s"/>
   </g>
-  <line x1="28" y1="146" x2="912" y2="146" stroke="#d1d9e0" stroke-width="1"/>
+  <line class="rule" x1="28" y1="146" x2="912" y2="146" stroke="#d1d9e0" stroke-width="1"/>
 </svg>

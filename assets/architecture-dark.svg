@@ -1,25 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="940" height="210" viewBox="0 0 940 210" role="img" aria-label="seasmp architecture: nginx in front of a Next.js web client, a Fastify TypeScript API and a Python FastAPI analytics service, backed by PostgreSQL and Redis">
+  <style>
+    .b { animation: appear .55s ease backwards; }
+    .w { animation: draw 1s cubic-bezier(.4,0,.2,1) backwards; }
+    .f { stroke: #a78bfa; stroke-width: 1.4; opacity: .5;
+          animation: flow linear infinite; }
+    @keyframes appear { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes draw   { from { stroke-dashoffset: var(--len) } to { stroke-dashoffset: 0 } }
+    @keyframes flow   { from { stroke-dashoffset: var(--travel) } to { stroke-dashoffset: 0 } }
+    @media (prefers-reduced-motion: reduce) {
+      .b, .w { animation: none }
+      .f { display: none }
+    }
+  </style>
   <g font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace" transform="translate(0,-16)">
-    <path d="M160 125 H205 V58 H250" fill="none" stroke="#3b424c" stroke-width="1"/>
-    <path d="M160 125 H250" fill="none" stroke="#3b424c" stroke-width="1"/>
-    <path d="M375 147 V170" fill="none" stroke="#3b424c" stroke-width="1"/>
-    <path d="M500 125 H560 V102 H620" fill="none" stroke="#3b424c" stroke-width="1"/>
-    <path d="M500 125 H560 V170 H620" fill="none" stroke="#3b424c" stroke-width="1"/>
+    <path class="w" d="M160 125 H205 V58 H250" fill="none" stroke="#3b424c" stroke-width="1" style="--len:157;stroke-dasharray:157;animation-delay:0.25s"/>
+    <path class="f" d="M160 125 H205 V58 H250" fill="none" style="--travel:327;stroke-dasharray:5 327;animation-duration:5.9s;animation-delay:0.0s"/>
+    <path class="w" d="M160 125 H250" fill="none" stroke="#3b424c" stroke-width="1" style="--len:90;stroke-dasharray:90;animation-delay:0.37s"/>
+    <path class="f" d="M160 125 H250" fill="none" style="--travel:260;stroke-dasharray:5 260;animation-duration:4.7s;animation-delay:0.9s"/>
+    <path class="w" d="M375 147 V170" fill="none" stroke="#3b424c" stroke-width="1" style="--len:23;stroke-dasharray:23;animation-delay:0.49s"/>
+    <path class="f" d="M375 147 V170" fill="none" style="--travel:193;stroke-dasharray:5 193;animation-duration:3.5s;animation-delay:2.4s"/>
+    <path class="w" d="M500 125 H560 V102 H620" fill="none" stroke="#3b424c" stroke-width="1" style="--len:143;stroke-dasharray:143;animation-delay:0.61s"/>
+    <path class="f" d="M500 125 H560 V102 H620" fill="none" style="--travel:313;stroke-dasharray:5 313;animation-duration:5.7s;animation-delay:1.5s"/>
+    <path class="w" d="M500 125 H560 V170 H620" fill="none" stroke="#3b424c" stroke-width="1" style="--len:165;stroke-dasharray:165;animation-delay:0.73s"/>
+    <path class="f" d="M500 125 H560 V170 H620" fill="none" style="--travel:335;stroke-dasharray:5 335;animation-duration:6.1s;animation-delay:3.0s"/>
+    <g class="b" style="animation-delay:0.10s">
     <rect x="40" y="103" width="120" height="44" rx="4" fill="none" stroke="#262c36" stroke-width="1"/>
     <text x="54" y="122" font-size="12" letter-spacing="0.4" fill="#f0f6fc">nginx</text>
     <text x="54" y="137" font-size="10.5" letter-spacing="0.3" fill="#8b949e">reverse proxy</text>
+    </g>
+    <g class="b" style="animation-delay:0.19s">
     <rect x="250" y="36" width="250" height="44" rx="4" fill="none" stroke="#262c36" stroke-width="1"/>
     <text x="264" y="55" font-size="12" letter-spacing="0.4" fill="#f0f6fc">web</text>
     <text x="264" y="70" font-size="10.5" letter-spacing="0.3" fill="#8b949e">Next.js 16 · shadcn/ui</text>
+    </g>
+    <g class="b" style="animation-delay:0.28s">
     <rect x="250" y="103" width="250" height="44" rx="4" fill="none" stroke="#262c36" stroke-width="1"/>
     <text x="264" y="122" font-size="12" letter-spacing="0.4" fill="#f0f6fc">api</text>
     <text x="264" y="137" font-size="10.5" letter-spacing="0.3" fill="#8b949e">Fastify · TypeScript · Prisma</text>
+    </g>
+    <g class="b" style="animation-delay:0.37s">
     <rect x="250" y="170" width="250" height="44" rx="4" fill="none" stroke="#262c36" stroke-width="1"/>
     <text x="264" y="189" font-size="12" letter-spacing="0.4" fill="#f0f6fc">analytics</text>
     <text x="264" y="204" font-size="10.5" letter-spacing="0.3" fill="#8b949e">FastAPI · scikit-learn</text>
+    </g>
+    <g class="b" style="animation-delay:0.46s">
     <rect x="620" y="82" width="170" height="40" rx="4" fill="none" stroke="#262c36" stroke-width="1"/>
     <text x="634" y="106" font-size="12" letter-spacing="0.4" fill="#f0f6fc">PostgreSQL 17</text>
+    </g>
+    <g class="b" style="animation-delay:0.55s">
     <rect x="620" y="150" width="170" height="40" rx="4" fill="none" stroke="#262c36" stroke-width="1"/>
     <text x="634" y="174" font-size="12" letter-spacing="0.4" fill="#f0f6fc">Redis 7.4</text>
+    </g>
   </g>
 </svg>
