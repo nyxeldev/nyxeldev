@@ -1,27 +1,37 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Jahongir Hamidov — software engineer, Tashkent, Uzbekistan" src="assets/header-dark.svg" width="100%">
+  <img alt="Jahongir Hamidov — full-stack engineer, Tashkent, Uzbekistan" src="assets/header-dark.svg" width="100%">
 </picture>
 
-I build the front of systems that are larger than the screen they end on: admin panels, dashboards, platforms with real data behind them. React, Next.js and TypeScript day to day, and increasingly the API and data layer underneath — an interface is only as honest as what feeds it.
+I build systems end to end — the interface, the API behind it, and the data model underneath. TypeScript and React in front, Node and Python behind, PostgreSQL, Redis and Docker under both.
 
-Currently going deeper into SQL, data modelling and backend architecture.
+### [seasmp](https://github.com/nyxeldev/seasmp) — education analytics platform
 
-### Selected work
+Three services in one monorepo, behind a single nginx: a **Next.js** client, a **Fastify + TypeScript** API, and a **Python FastAPI** service that scores student dropout risk from attendance and assessment history.
 
-- **[seasmp](https://github.com/nyxeldev/seasmp)** — education analytics platform. One monorepo, three apps: a Fastify + TypeScript API, a Next.js web client, and a Python FastAPI service that scores student dropout risk. PostgreSQL, Redis, nginx, Docker Compose.
-- **[exam_system_back](https://github.com/nyxeldev/exam_system_back)** — backend for an online exam system, with a Telegram bot companion. Python.
-- **[online-exam-front](https://github.com/nyxeldev/online-exam-front)** — the client for it. Next.js, TypeScript.
-- **[portfolio](https://github.com/nyxeldev/portfolio)** — personal site. Next.js 16, React 19, Tailwind.
+Prisma migrations on PostgreSQL 17, Redis for sessions and caching, an authenticated Socket.io gateway where room membership is derived from the token rather than trusted from the client, scheduled profile-refresh jobs, GitHub Actions CI that lints, tests and publishes images to GHCR, and a dependency-free load-test harness that measures what the detection layers cost under concurrency.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/architecture-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/architecture-light.svg">
+  <img alt="seasmp architecture: nginx in front of a Next.js client, a Fastify API and a FastAPI analytics service, backed by PostgreSQL and Redis" src="assets/architecture-dark.svg" width="100%">
+</picture>
+
+### Other work
+
+- **[speaking-api](https://github.com/nyxeldev/speaking-api)** — FastAPI service for speaking practice: JWT auth, hashed credentials, a Telegram bot client, routes and services kept apart. Python.
+- **[nextlearn](https://github.com/nyxeldev/nextlearn)** — Next.js App Router site for finding learning centres. Multi-page, animated, built on the file-system router.
+- **[maxway-clone](https://github.com/nyxeldev/maxway-clone)** — food-delivery interface rebuilt from scratch in React: carousel, cart, i18n in three languages, MUI.
 
 ### Stack
 
 ```
-frontend   React · Next.js · TypeScript · Redux · Tailwind · shadcn/ui
-backend    Node.js · Fastify · Python · FastAPI · REST
-data       PostgreSQL · Redis · pandas · NumPy
-tooling    Docker · nginx · Git · Vercel
+languages   TypeScript · JavaScript · Python · SQL
+frontend    React · Next.js · Tailwind · shadcn/ui · Redux
+backend     Node.js · Fastify · FastAPI · Prisma · Socket.io · REST
+data        PostgreSQL · Redis · pandas · NumPy
+ops         Docker Compose · nginx · GitHub Actions · GHCR
 ```
 
 ### Elsewhere
