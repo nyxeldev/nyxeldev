@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg">
-  <img alt="Jahongir Hamidov — frontend engineer, Namangan, Uzbekistan" src="assets/header-dark.svg" width="100%">
+  <img alt="Jahongir Hamidov — frontend engineer, Tashkent, Uzbekistan" src="assets/header-dark.svg" width="100%">
 </picture>
 
 I build the front of systems that are larger than the screen they end on: admin panels, dashboards, platforms with real data behind them. React, Next.js and TypeScript day to day, and increasingly the API and data layer underneath — an interface is only as honest as what feeds it.
